@@ -1,0 +1,7 @@
+<% if user_signed_in? %>
+    <h1>Welcome <%= @user.email %>!</h1>
+<% else %>
+    <h1>Hello, welcome to assisty!</h1>
+    <p>Sign in to start improving your life!</p>
+    <p>Or contact us @ greylable@gmail.com</p>
+<% end %>
